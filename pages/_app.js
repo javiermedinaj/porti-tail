@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import { Roboto } from '@next/font/google'
+import { ThemeProvider } from 'next-themes'
 
 const roboto = Roboto({
   weight: '700',
@@ -8,8 +9,10 @@ const roboto = Roboto({
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={roboto.className}>
-      <Component {...pageProps} />
-    </main>
+    <ThemeProvider enableSystem={true} attribute="class">
+      <main className={roboto.className}>
+        <Component {...pageProps} />
+      </main>
+    </ThemeProvider>
   )
 }
