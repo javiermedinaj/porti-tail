@@ -13,7 +13,7 @@ const Section = () => {
 
 
                 className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center  dark:bg-black">
-                <h3 className="absolute top-10 uppercase  tracking-[20px] text-gray-500 text-2x1">
+                <h3 className="absolute top-6 uppercase tracking-[20px] text-gray-500 text-2x1 ">
                     Info
                 </h3>
                 <motion.img
@@ -29,7 +29,7 @@ const Section = () => {
                     }}
                     viewport={{ once: true }}
                     src="/me.jpg"
-                    className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+                    className=' md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
                 />
                 <div className="space-y-10 px-0 md:px-10">
                     <h4 className="text-4xl font-semibold  dark:text-white">
@@ -48,7 +48,7 @@ const Section = () => {
                         Constantemente estoy aprendiendo nuevas tecnologias y herramientas para mejorar mis habilidades
                     </motion.p>
                     <button>
-                        <a href="/proyect">
+                        <a href="/proyects">
                             <span className="underline decoration-[#F7AB0A]/50">
                                 Estos son algunos de mis proyectos
                             </span>

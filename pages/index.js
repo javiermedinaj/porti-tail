@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Section from '../components/Section'
 import Skills from '../components/Skills'
 
+
 export default function Home() {
   return (
     <>
@@ -18,7 +19,6 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Section />
-
         <Skills />
         <Footer />
       </div>

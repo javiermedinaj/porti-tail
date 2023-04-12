@@ -40,7 +40,7 @@ function Skills() {
                 <motion.img
                     whileHover={{ scale: 1.5 }}
                     whileTap={{ scale: 0.9 }}
-                    className="dark:bg-gray" src="/excel.png" width="50px" height="30" />
+                    className="dark:bg-gray" src="/python.png" width="50px" height="30" />
             </div>
         </div>
     )
