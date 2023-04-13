@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 const Section = () => {
 
@@ -48,11 +49,11 @@ const Section = () => {
                         Constantemente estoy aprendiendo nuevas tecnologias y herramientas para mejorar mis habilidades
                     </motion.p>
                     <button>
-                        <a href="/proyects">
+                        <Link href="/proyects" rel="noreferrer">
                             <span className="underline decoration-[#F7AB0A]/50">
                                 Estos son algunos de mis proyectos
                             </span>
-                        </a>
+                        </Link>
                     </button>
                 </div>
 

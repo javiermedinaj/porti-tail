@@ -25,7 +25,7 @@ const Footer = () => {
                                 whileHover={{ scale: 0.9 }}
                                 whileTap={{ scale: 0.9 }}
                                 className="font-bold">
-                                <a target="_blank" href="https://wa.me/1145268105?text=Estoy interesado en tu trabajo">
+                                <a target="_blank" rel="noreferrer" href="https://wa.me/1145268105?text=Estoy interesado en tu trabajo">
                                     Contactame via WhatsApp
                                 </a>
                             </motion.p>
@@ -49,7 +49,7 @@ const Footer = () => {
                                 whileHover={{ scale: 0.9 }}
                                 whileTap={{ scale: 0.9 }}
                                 className="font-bold">
-                                <a href="mailto:javier_j_medina@hotmail.com">
+                                <a href="mailto:javier_j_medina@hotmail.com" rel="noreferrer">
                                     Enviame un correo
                                 </a>
                             </motion.p>

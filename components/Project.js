@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const proyect = () => {
@@ -15,11 +16,11 @@ const proyect = () => {
                 <button
                     className='bg-blue-600 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700 '
                 >
-                    <a href="/">
+                    <Link href="/" rel="noreferrer">
                         <span>
                             Volver a la pagina principal
                         </span>
-                    </a>
+                    </Link>
                 </button>
             </div>
 
