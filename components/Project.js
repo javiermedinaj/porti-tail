@@ -9,7 +9,7 @@ const proyectos = [
             'Modelo 3D de iphone utilizando React y ThreeJS.',
         imagen:
             '/iphone.jpg',
-        link: "iphone-code.vercel.app",
+        link: "https://iphone-code.vercel.app/",
         code: "https://github.com/javiermedinaj/iphone-code"
     },
     {
